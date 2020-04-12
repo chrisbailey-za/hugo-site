@@ -2,14 +2,10 @@
 about:
   enable : true
   title : "Creative UX/UI Design Agency"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
-          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
-          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
-          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
-          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
-          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
-          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
-          officia adipisci neque!"
+  content : "I have spent the last seven and a bit years working as a digital analyst at various digital agencies. 
+  Having completed my Bachelor of Business Science with honours in Finance, I have a solid grounding in business and 
+  the analysis of data. I combine this with a passion for technology and the world of digital. Having dabbled with various 
+  programming languages in the past, I have focused on JavaScript due to it’s integral role in web analytics and tag management."
   image : "images/featue-bg.jpg"
   
 
@@ -23,27 +19,27 @@ featured_service:
   service_item:
     # featured service item loop
     - name : "Tag Manager Setups"
-      icon : "ion-erlenmeyer-flask"
+      icon : "ion-code"
       color : "primary"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : "Tag Manager audits, migrations, setups and consultation on Tag Manager best-practices."
       
     # featured service item loop
     - name : "Web Analytics"
-      icon : "ion-leaf"
+      icon : "ion-stats-bars"
       color : "primary-dark"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : "Web Analytics setups, customisation, ecommerce tracking and analysis of results."
       
     # featured service item loop
     - name : "Data Visualisation"
-      icon : "ion-lightbulb"
+      icon : "ion-ios-pie"
       color : "primary-darker"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : "Building dashboards to help you stay on top of your most important metrics."
 
     # featured service item loop
     - name : "Conversion Optimisation"
-      icon : "ion-lightbulb"
+      icon : "ion-erlenmeyer-flask"
       color : "primary-darkest"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim impedit repudiandae omnis est temporibus."
+      content : "Setting up data-driven experiments to increase the results that most matter to you."
 
       
 ############################# Service ###############################

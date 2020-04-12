@@ -5,38 +5,40 @@
 <div class="page-wrapper">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
+      <div class="col-12">
         {{ $paginator := .Paginate .Data.Pages }}
         {{ range $paginator.Pages }}
-        <div class="post">
-          <div class="post-media post-thumb">
+        <div class="post row">
+          <div class="post-media post-thumb col-md-4 pt-2">
             <a href="{{ .Permalink }}">
               <img src="{{ .Params.Image | relURL }}" alt="{{ .Title }}">
             </a>
-          </div>
-          <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-          <div class="post-meta">
-            <ul>
-              <li><i class="ion-calendar"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
-              <li><i class="ion-android-people"></i>
-                {{ i18n "posted_by" }}
-                {{if $.Site.Params.multi_author}}
-                {{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
-                {{else}}
-                <a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
-                {{end}}
-              </li>
-              <li><i class="ion-pricetags"></i> 
-                {{ range $index, $elements:= .Params.Tags }}
-                {{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
-								{{ end }}
-              </li>
-            </ul>
-          </div>
-          <div class="post-content">
-            <p>{{ .Summary }}</p>
-            <a href="{{ .Permalink }}" class="btn btn-main">{{ i18n "read_more" }}</a>
-          </div>
+		  </div>
+		  <div class="col-md-8">
+			<h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+			<div class="post-meta">
+				<ul>
+				<li><i class="ion-calendar"></i> {{ .PublishDate.Format "January 2, 2006" }}</li>
+				<li><i class="ion-android-people"></i>
+					{{ i18n "posted_by" }}
+					{{if $.Site.Params.multi_author}}
+					{{ range $index, $elements:= .Params.Author }}{{ if ne $index 0 }}, {{ end }}<a class="text-primary" href="{{ `author/` | relLangURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
+					{{else}}
+					<a class="text-primary" href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}">{{ .Params.Author }}</a>
+					{{end}}
+				</li>
+				<li><i class="ion-pricetags"></i> 
+					{{ range $index, $elements:= .Params.Tags }}
+					{{ if ne $index 0 }}, {{ end }}<a href="{{ `tags/` | relLangURL }}{{ . | lower }}">{{ . | humanize }}</a>
+									{{ end }}
+				</li>
+				</ul>
+			</div>
+			<div class="post-content">
+				<p>{{ .Summary }}</p>
+				<a href="{{ .Permalink }}" class="btn btn-main">Read More</a>
+			</div>
+		  </div>
         </div>
         {{ end }}
         
@@ -104,7 +106,7 @@
 				{{ end }}
       </div>
       <div class="col-md-4">
-        {{ partial "blog-sidebar.html" . }}
+        <!-- {{ partial "blog-sidebar.html" . }} -->
       </div>
     </div>
   </div>

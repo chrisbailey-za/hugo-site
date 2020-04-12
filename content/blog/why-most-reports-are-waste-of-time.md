@@ -4,14 +4,13 @@ title: Why Most Reports are a Waste Of Time
 date: 2019-01-26T11:24:03+02:00
 author: Chris Bailey
 excerpt: 'Most reports take hours to compile but end up driving zero action - what a waste of time! I believe that this can be fixed by getting the answer to just three questions.'
-layout: post
-guid: http://localhost/chris-site/?p=271
 permalink: /why-most-reports-are-waste-of-time/
-image: /wp-content/uploads/klipfolio-dashboard-e1555421181354.png
-categories:
-  - Uncategorised
-tags:
-  - banner-darken-3
+image: /images/uploads/klipfolio-dashboard.png
+bg_image: /images/uploads/klipfolio-dashboard.png
+categories: ["Digital Analytics"]
+description: "this is meta description"
+draft: false
+type: "post"
 ---
 There are three key aspects that differentiate a good report from a bad one. All of which are determined well before the first piece of data is even looked at.  
 

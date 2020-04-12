@@ -6,6 +6,12 @@
   background: #F6F6F6;
 }
 
+.block.t-heavy{
+  h1{
+    font-weight: 400;
+  }
+}
+
 .post {
   background: $light;
   margin-bottom: 40px;
@@ -16,6 +22,7 @@
       img {
         width: 100%;
         height: auto;
+        padding-top: 4rem;
       }
     }
 

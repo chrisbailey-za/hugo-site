@@ -3,7 +3,7 @@ banner:
   enable : true
   bg_image : "images/uploads/waves4-1.jpg"
   title : "Digital Analytics Consultant"
-  content : "Helping you properly configure and understand your digital analytics data."
+  content : "Helping you to get on top of your digital analytics."
   button:
     enable : true
     label : "Get in Touch"
@@ -13,13 +13,12 @@ banner:
 about:
   enable : true
   title : "ABOUT ME"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id."
+  description : "I am a freelance digital analytics consultant with over 8 years of experience across multiple industries." 
+  content : "I started off my career as a digital analyst in digital marketing agencies across Cape Town, South Africa. 
+          Having completed my Bachelor of Business Science with honours in Finance, I have a solid grounding in business and 
+          the analysis of data. I combine this with a passion for technology and the world of digital.  
+          After 8 years agency side, I am now focusing on offering my skills and experience on a freelance basis.
+          I am active within the UpWork community and consult to a number of businesses across the globe."
   image : "images/uploads/profile2.jpg"
   bg_image: "images/uploads/underwater3.jpg"
 

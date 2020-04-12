@@ -1,17 +1,16 @@
 ---
 id: 351
-title: 'DRY Reporting &#8211; A Guide to Report Automation'
+title: 'DRY Reporting & A Guide to Report Automation'
 date: 2019-02-08T13:09:10+02:00
 author: Chris Bailey
 excerpt: Too much reporting time is spent on repetitive tasks that add no value. This blog post looks at how and why you need to invest in automating your reports. And no, this does not require some ridiculously expensive BI tool!
-layout: post
-guid: http://localhost/chris-site/?p=320
 permalink: /dry-reporting-automation/
-image: /wp-content/uploads/DRY-reporting.png
-categories:
-  - Uncategorised
-tags:
-  - banner-darken-3
+image: /images/uploads/DRY-reporting.png
+bg_image: /images/uploads/DRY-reporting.png
+categories: ["Digital Analytics"]
+description: "this is meta description"
+draft: false
+type: "post"
 ---
 For those of you that are unfamiliar with the term, DRY is a software development term that stands for “**D**on’t **R**epeat **Y**ourself”. This is a fundamental part of good development that ensures efficiency. It is also something that I have found is often missing from reporting processes.  
 

@@ -4,11 +4,13 @@ title: The Building Blocks of Digital Analytics
 date: 2019-01-08T12:34:24+02:00
 author: Chris Bailey
 excerpt: For my first blog post, I am starting at the beginning. What is it we are trying to achieve, not only with digital analytics, but with our digital presence as a whole. Only then can we focus on how to measure performance.
-layout: post
 permalink: /building-blocks-digital-analytics/
-featured_image: /resources/wp-content/uploads/building_blocks.jpg
-categories:
-  - Uncategorised
+image: /images/uploads/building_blocks.jpg
+bg_image: /images/uploads/building_blocks.jpg
+categories: ["Digital Analytics"]
+description: "this is meta description"
+draft: false
+type: "post"
 ---
 This is my first attempt at sharing some of my work and some of the lessons that I’ve learnt over the past 8 years as a digital analyst. I hopefully it will be of some benefit to you.  
 

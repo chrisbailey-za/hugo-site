@@ -2,7 +2,7 @@
 
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Chris Bailey Analytics"
 theme = "aero"
 paginate = 5
 
@@ -44,7 +44,7 @@ URL = "about"
 weight = 4
 
 [[menu.main]]
-name = "Service"
+name = "Services"
 URL = "service"
 weight = 2
 

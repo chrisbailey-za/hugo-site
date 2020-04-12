@@ -1,6 +1,6 @@
 ---
-title: "Latest News"
-description: "this is meta description"
+title: "Blog"
+description: "Latest digital analytics blog posts"
 draft: false
-bg_image: "images/featue-bg.jpg"
+bg_image: "images/uploads/wave-2-6.jpg"
 ---
