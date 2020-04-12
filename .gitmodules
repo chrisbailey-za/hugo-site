@@ -1,0 +1,9 @@
+[submodule "themes/cb"]
+	path = themes/cb
+	url = https://github.com/themefisher/airspace-hugo
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/aero"]
+	path = themes/aero
+	url = https://github.com/themefisher/airspace-hugo.git
