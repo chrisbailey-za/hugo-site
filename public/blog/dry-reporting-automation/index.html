@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>DRY Reporting &amp; A Guide to Report Automation</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="this is meta description">
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.69.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="http://example.org/plugins/bootstrap/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="http://example.org/plugins/Ionicons/css/ionicons.min.css">
+  
+  <link rel="stylesheet" href="http://example.org/plugins/magnific-popup/magnific-popup.css">
+  
+  <link rel="stylesheet" href="http://example.org/plugins/slick/slick.css">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="http://example.org/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="http://example.org/images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="http://example.org/images/favicon.png" type="image/x-icon">
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+
+<header class="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        
+        <nav class="navbar navbar-fixed-top">
+          <div class="container-fluid bg-shadow">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="/">
+                <img src="http://example.org/images/logo.png" alt="Chris Bailey Analytics" class="img-responsive">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navigation">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://example.org/"></a></li>
+
+                
+                
+                <li><a href="http://example.org/">Home</a></li>
+                
+                
+                
+                <li><a href="http://example.org/service">Services</a></li>
+                
+                
+                
+                <li><a href="http://example.org/blog">Blog</a></li>
+                
+                
+                
+                <li><a href="http://example.org/about">About</a></li>
+                
+                
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="page-title mt-4 bg-2" style="background-image: url('http://example.org/images/posts/DRY-reporting.png');">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block t-heavy">
+          <h1>DRY Reporting &amp; A Guide to Report Automation</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="post post-single">
+					<div class="post-meta">
+						<ul>
+							<li><i class="ion-calendar"></i> February 8, 2019</li>
+							<li><i class="ion-android-people"></i>
+								
+								
+								<a class="text-primary" href="/author/chris-bailey">Chris Bailey</a>
+								
+							</li>
+							<li><i class="ion-pricetags"></i> 
+								
+							</li>
+						</ul>
+					</div>
+					<div class="post-content post-excerpt">
+						<p>For those of you that are unfamiliar with the term, DRY is a software development term that stands for “<strong>D</strong>on’t <strong>R</strong>epeat <strong>Y</strong>ourself”. This is a fundamental part of good development that ensures efficiency. It is also something that I have found is often missing from reporting processes.</p>
+<p>I believe that the lack of DRY reporting is two sided. On the one hand, the people compiling reports often lack the required programming experience to automate repetitive tasks. On the other hand, where people do have the programming experience, they see the initial time that needs to be investment as being too high.</p>
+<p>In many cases, this is true – if it takes 20 hours to automate a 10 minute task, that task needs to be done 120 times before the initial investment pays off. (If it’s a monthly task, that’s 10 years).</p>
+<p>I am going to present my case as to how and why to automate reporting despite the above:</p>
+<h2 id="simplify">Simplify</h2>
+<p>Most reports are over-cluttered and over-complicated. Before you start working on automation, make sure that the data you are looking to automate is <a href="/why-most-reports-are-waste-of-time/">actually necessary.</a></p>
+<p>Another effective means of simplifying reports, is to split up one large report into multiple smaller ones. This not only leads to your reports speaking to individual audiences, but also makes automation far easier.</p>
+<p>Simplification is the low hanging fruit of reporting – it generally requires very little effort and has the biggest impact.</p>
+<h2 id="economies-of-scale">Economies of scale</h2>
+<p>Automating reports should always lead to economies of scale. Meaning that as you start automating reports, all subsequent reports can be automated with less effort.</p>
+<p>To explain this, I am going to refer back to the example of investing 20 hours to automate 10 minute task. If you are able to adapt this code to automate 60 different 10 minute tasks, and it only takes you an extra 5 minutes per task, that’s an overall investment of 25 hours. It now only requires 3 repetitions before the investment becomes worth it.</p>
+<p>The best way to do this is by making use of easily understandable, robust, reusable code. It also helps to stick to templates where it makes sense (although I do not personally believe that reporting templates add much value in many scenarios).</p>
+<h2 id="upskill">Upskill</h2>
+<p>While simplification and economies of scale help to make the automation process easier, I believe that there is a much better method – Upskilling. In the spirit of <em>”Give someone a fish, feed them for a day – teach someone to fish, feed them for a lifetime”</em> I believe the person compiling reports should be given the tools and knowledge to automate their own tasks.</p>
+<p>While this may be intimidating at first, here are my suggestions of how one can get started.</p>
+<h5 id="google-sheets-is-your-new-best-friend-">Google Sheets is your new best friend 🙂</h5>
+<p>Did you know that you can automate almost any operation in Google Sheets using Google’s AppScipt. This is much like excel VBA macros, just much <strong>much</strong> more user friendly. Here is a link to Google’s documentation.</p>
+<p>These scripts can pull data from Google Analytics, almost any other API (provided you can figure out the authentication) or scrape websites from content.</p>
+<p>They can also be used to create pdfs, attach these to emails and send them to a predetermined list of recipients. Sound useful?</p>
+<p>Even better, they can be scheduled to run on daily, weekly, or monthly schedules.</p>
+<h5 id="start-playing-with-apis">Start playing with APIs</h5>
+<p>Most of the data for your reports comes from some sort of API (Application Programming Interface). While all APIs differ, a bit of practice figuring out how APIs work and how you can bend them to your will is invaluable.</p>
+<p>I would suggest starting off with the Google Analytics API. You can start pulling data from this in Google Sheets, or use the <a href="http://ga-dev-tools.appspot.com/explorer/">GA-Tools Query Explorer</a>.</p>
+<h5 id="learn-some-javascript-basics">Learn some JavaScript basics</h5>
+<p>Upping your knowledge of JS will stand you in good stead across much more than just automating reports. Nonetheless, Google AppScript is JS based and having a good understanding of objects and arrays and how to iterating over them will definitely help.</p>
+<p>Here are two resources for getting started or improving your JavaScript skills. There are many more that are just a Google away.</p>
+<p><a href="https://www.codecademy.com/learn/introduction-to-javascript">CodeAcademy JavaScrip Intro</a></p>
+<p><a href="https://javascript30.com/">JavaScript30 from Wes Bos</a></p>
+<p>If you have any comments or would like some help with automating your reports, just get in touch!</p>
+
+					</div>
+					<div class="post-comments">
+						
+					</div>
+				</div>
+			</div>
+      <div class="col-md-4">
+        
+      </div>
+		</div>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="footer-manu">
+					<ul>
+					
+					<li><a href="/">Home</a></li>
+					
+					<li><a href="service">Service</a></li>
+					
+					<li><a href="blog">Blog</a></li>
+					
+					<li><a href="about">About</a></li>
+					
+					<li><a href="/#contact">Contact</a></li>
+					
+					<li><a href="mailto:chris@chrisbaileyanalytics.com">Email Me</a></li>
+					
+					<li><a href="https://www.linkedin.com/in/chris-bailey-analytics/">LinkedIn</a></li>
+					
+					<li><a href="https://www.upwork.com/o/profiles/users/~01ae9a9043ad0d53c7/">UpWork</a></li>
+					
+					</ul>
+				</div>
+				<p class="copyright"></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+
+<script src="http://example.org/plugins/jQuery/jquery.min.js"></script>
+
+<script src="http://example.org/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="http://example.org/plugins/slick/slick.min.js"></script>
+
+<script src="http://example.org/plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+<script src="http://example.org/plugins/shuffle/shuffle.min.js"></script>
+
+<script src="http://example.org/plugins/google-map/gmap.js"></script>
+
+
+
+
+<script src="http://example.org/js/script.min.js"></script>
+
+
+</body>
+
+</html>
