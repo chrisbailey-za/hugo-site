@@ -5,7 +5,6 @@ languageCode = "en-us"
 title = "Chris Bailey Analytics"
 theme = "aero"
 paginate = 5
-publishDir = "docs"
 
 
 

@@ -1,15 +1,12 @@
 [submodule "themes/cb"]
 	path = themes/cb
 	url = https://github.com/themefisher/airspace-hugo
+    
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/budparr/gohugo-theme-ananke.git
 
 [submodule "public"]
 	path = public
-	url = https://github.com/chrisbailey-za/chrisbailey-za.github.io.git
-	branch = master
-[submodule "docs/public"]
-	path = docs/public
 	url = https://github.com/chrisbailey-za/chrisbailey-za.github.io.git
 	branch = master
