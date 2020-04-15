@@ -1,9 +1,9 @@
 ############################### Banner ##############################
 banner:
   enable : true
-  bg_image : "images/uploads/waves4-1.jpg"
-  title : "Digital Analytics Consultant"
-  content : "Helping you to get on top of your digital analytics."
+  bg_image : "images/waves-1.jpg"
+  title : "Chris Bailey Analytics"
+  content : "Optimising your digital analytics."
   button:
     enable : true
     label : "Get in Touch"
@@ -16,11 +16,12 @@ about:
   description : "I am a freelance digital analytics consultant with over 8 years of experience across multiple industries." 
   content : "I started off my career as a digital analyst in digital marketing agencies across Cape Town, South Africa. 
           Having completed my Bachelor of Business Science with honours in Finance, I have a solid grounding in business and 
-          the analysis of data. I combine this with a passion for technology and the world of digital.  
-          After 8 years agency side, I am now focusing on offering my skills and experience on a freelance basis.
+          the analysis of data. 
+          <br>I combine this with a passion for technology and the world of digital. 
+          <br><br>After 8 years agency side, I am now focusing on offering my skills and experience on a freelance basis.
           I am active within the UpWork community and consult to a number of businesses across the globe."
-  image : "images/uploads/profile2.jpg"
-  bg_image: "images/uploads/underwater3.jpg"
+  image : "images/profile2.jpg"
+  bg_image: "images/underwater7.png"
 
 
 ######################### Portfolio ###############################
@@ -52,30 +53,24 @@ service:
 ############################ call to action ###########################
 cta:
   enable : false
-  bg_image : "images/call-to-action-bg.jpg"
-  title : "We design delightful digital experiences."
-  content : "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  bg_image : "images/underwater7.png"
+  title : "Do you need some help making sense of your Web Analytics or Tag Manager setup? <br> Would you like some advice on best practices and understanding your web analytics data?"
+  content : "Get back on top of your digital analytics setup."
   button:
     enable : true
-    label : "Tell Us Your Story"
-    link : "contact"
+    label : "Get in Touch"
+    link : "#contact"
 
 ############################# Funfacts ###############################
 funfacts:
   enable : true
-  title : "Some More Fun Facts"
-  description : "'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics'"
+  title : "A Couple Of Fun Metrics"
+  description : "As someone that spends their entire day working with metrics, it only seems appropriate to include a few more."
   funfact_item:
     # funfacts item loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Years of GA Experience"
-      count : "8"
-      
-    # funfacts item loop
-    - icon : "ion-ios-glasses-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Articles Written"
-      count : "45"
+    - icon : "ion-ios-location-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Nationalities Worked With"
+      count : "39"
       
     # funfacts item loop
     - icon : "ion-ios-compose-outline" #ionicon pack v2 : https://ionicons.com/v2/
@@ -83,9 +78,14 @@ funfacts:
       count : "52"
       
     # funfacts item loop
-    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+    - icon : "ion-ios-analytics-outline" #ionicon pack v2 : https://ionicons.com/v2/
       name : "GA Properties Worked On"
       count : "143"
+
+    # funfacts item loop
+    - icon : "ion-ios-timer-outline" #ionicon pack v2 : https://ionicons.com/v2/
+      name : "Hours Spent Building this Site"
+      count : "15"
 
   testimonial_slider:
     # testimonial item loop

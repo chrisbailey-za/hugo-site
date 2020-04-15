@@ -295,6 +295,7 @@ input[type="tel"] {
       letter-spacing: 6px;
       margin-top: 0;
       text-transform: capitalize;
+      overflow-wrap: break-word;
     }
 
     p {

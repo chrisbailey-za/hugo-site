@@ -1,12 +1,15 @@
 ########################### about service #############################
 about:
   enable : true
-  title : "Creative UX/UI Design Agency"
-  content : "I have spent the last seven and a bit years working as a digital analyst at various digital agencies. 
-  Having completed my Bachelor of Business Science with honours in Finance, I have a solid grounding in business and 
-  the analysis of data. I combine this with a passion for technology and the world of digital. Having dabbled with various 
-  programming languages in the past, I have focused on JavaScript due to it’s integral role in web analytics and tag management."
-  image : "images/featue-bg.jpg"
+  title : "Digital Analytics Consulting"
+  content : "I specialise in technical implementations of web analytics platforms such as Google Analytics, Adobe Analytics and Matomo. 
+        Most of this is done via tag management platforms such as Google Tag Manager or Adobe DTM. I have also spent the past four years learning 
+        JavaScript due to its integral role in web analytics and tag management, which I believe sets me apart from many other digital analysts. 
+        In addition to this, I have more than five years of data visualisation experience, designing and implementing reports and dashboards that 
+        focus on visualising actionable data, that is related to business objectives. Data visualisation tools that I have recently used include Klipfolio, 
+        Google Data Studio and Tableau."
+  image: "/images/upward-graph-png-6.png"
+
   
 
 
@@ -14,8 +17,9 @@ about:
 featured_service:
   enable : true
   title : "Services"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  description : "As digital marketing evolves, so do the tools and platforms used to track these digital touchpoints.
+  It is my aim to guide you through this ever changing world, making sure that you have the data that you need to make accurate decisions.
+  This includes, but is not limited to the below services:"
   service_item:
     # featured service item loop
     - name : "Tag Manager Setups"
@@ -33,7 +37,7 @@ featured_service:
     - name : "Data Visualisation"
       icon : "ion-ios-pie"
       color : "primary-darker"
-      content : "Building dashboards to help you stay on top of your most important metrics."
+      content : "Data Visualisation strategy, KPI definition and building dashboards across a number of tools."
 
     # featured service item loop
     - name : "Conversion Optimisation"
@@ -46,43 +50,55 @@ featured_service:
 service:
   enable : true
   title : "Tools and Platforms"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
   service_item:
     # service item loop
     - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Tag Manager
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/google_tag_manager.svg"
 
     # service item loop
+    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Adobe Tag Manager
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/adobe_target.png"
+
+      # service item loop
     - icon : ion-compass #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Analytics
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/google_analytics.svg"
 
     # service item loop
     - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Adobe Analytics
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/adobe_analytics.png"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Google Optimize
+      name: Matomo/Piwik
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/matomo.png"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Klipfolio
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
-    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
-      name: Piwik/Matomo
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/klipfolio.png"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Data Studio
       content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/google_data_studio.svg"
+
+    # service item loop
+    - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
+      name: Google Optimize
+      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      logo: "/images/logos/google_optimize.png"
+
 
     
 ############################# call to action #################################

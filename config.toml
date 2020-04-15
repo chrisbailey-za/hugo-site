@@ -5,6 +5,7 @@ languageCode = "en-us"
 title = "Chris Bailey Analytics"
 theme = "aero"
 paginate = 5
+publishDir = "docs"
 
 
 
@@ -58,12 +59,11 @@ name = "Blog"
 URL = "blog"
 weight = 3
 
-
 # footer menu
 [[menu.footer]]
-name = "About"
-URL = "about"
-weight = 3
+name = "Home"
+URL = "/"
+weight = 1
 
 [[menu.footer]]
 name = "Service"
@@ -74,6 +74,32 @@ weight = 1
 name = "Blog"
 URL = "blog"
 weight = 2
+
+[[menu.footer]]
+name = "About"
+URL = "about"
+weight = 3
+
+[[menu.footer]]
+name = "Contact"
+URL = "/#contact"
+weight = 4
+
+[[menu.footer]]
+name = "Email Me"
+URL = "mailto:chris@chrisbaileyanalytics.com"
+weight = 5
+
+[[menu.footer]]
+name = "LinkedIn"
+URL = "https://www.linkedin.com/in/chris-bailey-analytics/"
+weight = 6
+
+[[menu.footer]]
+name = "UpWork"
+URL = "https://www.upwork.com/o/profiles/users/~01ae9a9043ad0d53c7/"
+weight = 7
+
 
 
 #################### default parameters ################################

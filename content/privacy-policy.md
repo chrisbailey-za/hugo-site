@@ -6,7 +6,7 @@ author: admin
 layout: page
 permalink: /privacy-policy/
 guid: http:/?page_id=3
-image: /wp-content/uploads/underwater3.jpg
+image: /images/underwater7.png
 ---
 ## Who we are
 

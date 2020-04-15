@@ -5,8 +5,8 @@ date: 2019-02-08T13:09:10+02:00
 author: Chris Bailey
 excerpt: Too much reporting time is spent on repetitive tasks that add no value. This blog post looks at how and why you need to invest in automating your reports. And no, this does not require some ridiculously expensive BI tool!
 permalink: /dry-reporting-automation/
-image: /images/uploads/DRY-reporting.png
-bg_image: /images/uploads/DRY-reporting.png
+image: /images/posts/DRY-reporting.png
+bg_image: /images/posts/DRY-reporting.png
 categories: ["Digital Analytics"]
 description: "this is meta description"
 draft: false

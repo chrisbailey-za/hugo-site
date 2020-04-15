@@ -5,8 +5,8 @@ date: 2019-01-26T11:24:03+02:00
 author: Chris Bailey
 excerpt: 'Most reports take hours to compile but end up driving zero action - what a waste of time! I believe that this can be fixed by getting the answer to just three questions.'
 permalink: /why-most-reports-are-waste-of-time/
-image: /images/uploads/klipfolio-dashboard.png
-bg_image: /images/uploads/klipfolio-dashboard.png
+image: /images/posts/klipfolio-dashboard.png
+bg_image: /images/posts/klipfolio-dashboard.png
 categories: ["Digital Analytics"]
 description: "this is meta description"
 draft: false

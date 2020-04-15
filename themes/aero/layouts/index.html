@@ -44,11 +44,11 @@
             <h2>{{ .title | markdownify }}</h2>
             <p>{{ .description | markdownify }}</p>
           </div>
-          <p>{{ .content | markdownify }}</p>
+          <p>{{ .content | safeHTML }}</p>
         </div>
       </div>
       <div class="col-md-5 col-sm-12">
-        <div class="block">
+        <div class="block hidden-sm hidden-xs">
           <img src="{{ .image | relURL }}" class="img-responsive img-round" alt="Img">
         </div>
       </div>
