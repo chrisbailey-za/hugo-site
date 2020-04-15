@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Chris Bailey Analytics</title>
+    <link>http://example.org/blog/</link>
+    <description>Recent content in Blog on Chris Bailey Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 08 Feb 2019 13:09:10 +0200</lastBuildDate>
+    
+	<atom:link href="http://example.org/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DRY Reporting &amp; A Guide to Report Automation</title>
+      <link>http://example.org/blog/dry-reporting-automation/</link>
+      <pubDate>Fri, 08 Feb 2019 13:09:10 +0200</pubDate>
+      
+      <guid>http://example.org/blog/dry-reporting-automation/</guid>
+      <description>For those of you that are unfamiliar with the term, DRY is a software development term that stands for “Don’t Repeat Yourself”. This is a fundamental part of good development that ensures efficiency. It is also something that I have found is often missing from reporting processes.
+I believe that the lack of DRY reporting is two sided. On the one hand, the people compiling reports often lack the required programming experience to automate repetitive tasks.</description>
+    </item>
+    
+    <item>
+      <title>Why Most Reports are a Waste Of Time</title>
+      <link>http://example.org/blog/why-most-reports-are-waste-of-time/</link>
+      <pubDate>Sat, 26 Jan 2019 11:24:03 +0200</pubDate>
+      
+      <guid>http://example.org/blog/why-most-reports-are-waste-of-time/</guid>
+      <description>There are three key aspects that differentiate a good report from a bad one. All of which are determined well before the first piece of data is even looked at.
+The problem with most reports, and the reason that they end up being a waste of everyone’s time, is that these three aspects are often brushed aside or completely ignored.
+The three questions that need to be answered before any report is started are:</description>
+    </item>
+    
+    <item>
+      <title>The Building Blocks of Digital Analytics</title>
+      <link>http://example.org/blog/building-blocks-digital-analytics/</link>
+      <pubDate>Tue, 08 Jan 2019 12:34:24 +0200</pubDate>
+      
+      <guid>http://example.org/blog/building-blocks-digital-analytics/</guid>
+      <description>This is my first attempt at sharing some of my work and some of the lessons that I’ve learnt over the past 8 years as a digital analyst. I hopefully it will be of some benefit to you.
+I hope to write a number of articles about digital measurement and implementing custom tracking. However, I believe it is only prudent to start at the beginning. And in my opinion, the beginning is not as much a question of how, as it is of what.</description>
+    </item>
+    
+  </channel>
+</rss>
