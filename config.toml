@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 
-baseURL = "http://example.org/"
+baseURL = "https://chrisbailey-za.github.io/"
 languageCode = "en-us"
 title = "Chris Bailey Analytics"
 theme = "aero"
@@ -120,7 +120,7 @@ multi_author = false
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "" # use .png , .svg or .gif format
 
 # Navigation get start button

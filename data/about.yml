@@ -1,8 +1,8 @@
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
-  title : "We strive to be the best and <br> make awesome work."
+  image : "images/profile2.jpg"
+  title : "Helping you to make sense of your <br> digital analytics data."
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
           iure officiis facere vitae itaque.
           
@@ -13,83 +13,24 @@ about:
 
   button:
     enable : true
-    label : "Download Company Profile"
-    link : "#"
-
-  funfacts:
-    # funfacts loop
-    - icon : "ion-ios-flask-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Completed Projects"
-      count : "349"
-      
-    # funfacts loop
-    - icon : "ion-ios-flame-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Lines Of Code"
-      count : "35000"
-      
-    # funfacts loop
-    - icon : "ion-ios-pint-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
-      count : "70"
-      
-    # funfacts loop
-    - icon : "ion-ios-wineglass-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "10"
-      
-    # funfacts loop
-    - icon : "ion-ios-chatboxes-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Satisfied Customer"
-      count : "75"
-      
-    # funfacts loop
-    - icon : "ion-ios-body-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Awards Winner"
-      count : "20"
+    label : "Get in Touch"
+    link : "/#contact"
       
 ################################ feature #####################################
 features:
   enable : true
-  title : "We are indepented Design & Development Agency"
-  feature_item:
-    # feature item loop
-    - icon : "ion-ios-color-filter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "IOS App Development"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      
-    # feature item loop
-    - icon : "ion-ios-unlocked-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "App Secutity"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      
-    # feature item loop
-    - icon : "ion-ios-game-controller-b-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Games Development"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      
-    # feature item loop
-    - icon : "ion-ios-mic-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Animation and Editing"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      
-    # feature item loop
-    - icon : "ion-ios-lightbulb-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "UI/UX Design"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-      
-    # feature item loop
-    - icon : "ion-ios-star-outline" #ionicon pack v2 : https://ionicons.com/v2/
-      name : "Branding"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-    
+  title : "What I do in my free time"
+  content: "As you have probably figured out by this stage, I am a rather passionate (albeit averagely skilled) surfer. My love of surfing comes from growing up in Kommetjie, a small village south of Cape Town, South Africa, which happens to have a magnificent supply of waves. This led to me spending weekends, evening and early mornings in the ocean ever since I could swim.<br><br>
+      While I have worked and lived in Cape Town for most of my life, I recently spent a year travelling through Australia. I have also spent time travelling and working in Switzerland and Germany in the past.<br><br>
+      Note: The photos on this page are all pictures of me surfing that I was lucky enough to be sent from friends and generous photographers. Particular thanks goes to Daniel Grebe for the photos he has sent me (and lots of other Kommetjie locals) over the years."  
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
     # tab item loop
     - name : "Vision"
