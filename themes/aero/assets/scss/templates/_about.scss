@@ -13,16 +13,19 @@
 			width: 100%;
 		}
 	}
-	.about-img {
-		overflow:hidden;
-		&:hover img {
-			transform: scale3D(1.1,1.1,1);
-		}
-		img {
-			@include transition (all, 0.5s, ease-out);
-		}
-	}
+	
 	.section-title {
 		margin-bottom: 0px;
+	}
+}
+
+.about-feature.section{
+	padding: 0px;
+
+	.title{
+
+		h2{
+			font-weight: 800;
+		}
 	}
 }

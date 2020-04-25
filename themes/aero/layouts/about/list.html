@@ -31,7 +31,7 @@
 
 {{ if $data.about.features.enable }}
 {{ with $data.about.features }}
-<section class="about-feature bg-dark section dark-service">
+<section class="about-feature section">
   <div class="container">
     {{ with .title }}
     <div class="row">
@@ -39,9 +39,17 @@
         <div class="title">
           <h2>{{ . | markdownify }}</h2>
         </div>
+        {{ end }}
       </div>
     </div>
-    {{ end }}
+  </div>
+  <div class="slick-slider-about">
+    <img class="img-responsive" src="{{ .image1 | relURL }}">
+    <img class="img-responsive" src="{{ .image2 | relURL }}">
+    <img class="img-responsive" src="{{ .image3 | relURL }}">
+    <img class="img-responsive" src="{{ .image4 | relURL }}">
+    <img class="img-responsive" src="{{ .image5 | relURL }}">
+    <img class="img-responsive" src="{{ .image6 | relURL }}">
   </div>
 </section>
 

@@ -46,6 +46,17 @@ $(document).ready(function () {
 		autoplaySpeed: 2000
 	});
 
+	$('.slick-slider-about').slick({
+		slidesToShow: 1,
+		infinite: true,
+		arrows: false,
+		autoplay: true,
+		autoplaySpeed: 3000,
+		adaptiveHeight: true,
+		centerMode: true,
+		centerPadding: '60px',
+	});
+
 
 	// Magnific Popup Image
 	$('.portfolio-popup').magnificPopup({

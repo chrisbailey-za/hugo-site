@@ -65,21 +65,6 @@ URL = "/"
 weight = 1
 
 [[menu.footer]]
-name = "Service"
-URL = "service"
-weight = 1
-
-[[menu.footer]]
-name = "Blog"
-URL = "blog"
-weight = 2
-
-[[menu.footer]]
-name = "About"
-URL = "about"
-weight = 3
-
-[[menu.footer]]
 name = "Contact"
 URL = "/#contact"
 weight = 4
@@ -112,7 +97,7 @@ mobile = "0124857985320"
 email = "demo@email.com"
 location = "North Main Street,Brooklyn Australia"
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+contact_form_action = "https://getform.io/f/5551a630-e2bb-4ef5-9af2-9d2631866260"
 # Google Analitycs
 google_analitycs_id = "" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
