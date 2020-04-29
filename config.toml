@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 
-baseURL = "https://chrisbailey-za.github.io/"
+baseURL = "https://chrisbaileyanalytics.com/"
 languageCode = "en-us"
 title = "Chris Bailey Analytics"
 theme = "aero"
