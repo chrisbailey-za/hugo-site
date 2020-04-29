@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 
-baseURL = "https://chrisbaileyanalytics.com/"
+baseURL = "https://www.chrisbaileyanalytics.com/"
 languageCode = "en-us"
 title = "Chris Bailey Analytics"
 theme = "aero"
