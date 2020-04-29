@@ -47,7 +47,7 @@
           <p>{{ .content | safeHTML }}</p>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12">
+      <div class="col-md-4 col-md-offset-1 col-sm-12">
         <div class="block hidden-sm hidden-xs">
           <img src="{{ .image | relURL }}" class="img-responsive img-round" alt="Img">
         </div>
@@ -117,16 +117,22 @@
         </div>
       </div>
       <div class="col-md-5 col-md-offset-1">
+        <h4 class="text-center">UpWork Reviews</h4>
         <div class="testimonial-carousel text-center">
           <div class="testimonial-slider owl-carousel">
             {{ range .testimonial_slider }}
             <div>
               <i class="ion-quote"></i>
-              <p>"{{ .content | markdownify }}"</p>
-              <div class="user">
-                <img src="{{ .image | relURL }}" alt="client">
-                <p><span>{{ .name | markdownify }}</span> {{ .designation | markdownify }}</p>
-              </div>
+              <a href="{{ .link | absURL }}" target="_blank">
+                <p>"{{ .content | markdownify }}"</p>
+                <div class="stars">
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                  <i class="ion-ios-star"></i>
+                </div>
+              </a>
             </div>
             {{ end }}
           </div>

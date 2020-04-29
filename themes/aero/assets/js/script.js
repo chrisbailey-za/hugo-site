@@ -43,7 +43,7 @@ $(document).ready(function () {
 		infinite: true,
 		arrows: false,
 		autoplay: true,
-		autoplaySpeed: 2000
+		autoplaySpeed: 7000
 	});
 
 	$('.slick-slider-about').slick({
@@ -105,5 +105,29 @@ $(document).ready(function () {
 	$(window).on('scroll', function () {
 		counter();
 	});
+
+
+	$("#contactForm").submit(function(e){
+		e.preventDefault();
+		var action = $(this).attr("action");
+		$.ajax({
+		  type: "POST",
+		  url: action,
+		  crossDomain: true,
+		  data: new FormData(this),
+		  dataType: "json",
+		  contentType: "multipart/form-data",
+		  processData: false,
+		  contentType: false,
+		  headers: {
+			"Accept": "application/json"
+		  }
+		}).done(function() {
+		   $('.form-success').addClass('is-active');
+		   $('#contactForm').addClass('submitted');
+		}).fail(function() {
+		   alert('An error occurred please try again later.')
+		});
+	  });
 
 });

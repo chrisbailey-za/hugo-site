@@ -40,6 +40,10 @@
       border: none;
       color: #fff;
       font-size: 18px;
+
+      &:hover{
+        font-weight: 800;
+      }
     }
   }
 }
@@ -108,4 +112,21 @@
     }
 
   }
+}
+
+.form-success{
+  display: none;
+  font-weight: 200;
+  color: $primary-color;
+  font-size: 20px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.form-success.is-active{
+  display: block;
+}
+
+#contactForm.submitted{
+  display: none;
 }

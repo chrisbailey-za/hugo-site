@@ -64,6 +64,16 @@
   p {
     line-height: 28px;
   }
+
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x: 200%;
+  background-size: 80%;
+
+  @media(max-width:992px){
+    background-position-x: -1000px;
+  }
+
 }
 
 

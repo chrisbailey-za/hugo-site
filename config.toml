@@ -81,7 +81,7 @@ weight = 6
 
 [[menu.footer]]
 name = "UpWork"
-URL = "https://www.upwork.com/o/profiles/users/~01ae9a9043ad0d53c7/"
+URL = "https://www.upwork.com/freelancers/~01ae9a9043ad0d53c7"
 weight = 7
 
 
@@ -90,16 +90,13 @@ weight = 7
 [params]
 logo = "images/logo.png"
 # Meta data
-description = "This is meta description"
-author = "Themefisher"
+description = "Freelance Digital Analytics Consultant - Helping you to make sense of your digital analytics data."
+author = "Chris Bailey"
 # Contact Information
-mobile = "0124857985320"
-email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+email = "chris@chrisbaileyanalytics.com"
+location = "Cape Town, South Africa"
 # contact form action
 contact_form_action = "https://getform.io/f/5551a630-e2bb-4ef5-9af2-9d2631866260"
-# Google Analitycs
-google_analitycs_id = "" # Your ID# search
 # multi-author support (if set to true, you must use an Array in the author field)
 multi_author = false
 

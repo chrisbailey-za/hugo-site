@@ -8,7 +8,7 @@ about:
         In addition to this, I have more than five years of data visualisation experience, designing and implementing reports and dashboards that 
         focus on visualising actionable data, that is related to business objectives. Data visualisation tools that I have recently used include Klipfolio, 
         Google Data Studio and Tableau."
-  image: "/images/upward-graph-png-6.png"
+  image: "/images/hex.png"
 
   
 
@@ -43,7 +43,7 @@ featured_service:
     - name : "Conversion Optimisation"
       icon : "ion-erlenmeyer-flask"
       color : "primary-darkest"
-      content : "Setting up data-driven experiments to increase the results that most matter to you."
+      content : "Setting up data-driven experiments to increase the results that matter most."
 
       
 ############################# Service ###############################
@@ -54,49 +54,49 @@ service:
     # service item loop
     - icon : ion-coffee #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Tag Manager
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Tag Manager audits, setup of customised tracking and GTM migrations."
       logo: "/images/logos/google_tag_manager.svg"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Adobe Tag Manager
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Adobe DTM migrations, customisation and custom tag setups."
       logo: "/images/logos/adobe_target.png"
 
       # service item loop
     - icon : ion-compass #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Analytics
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "GA configuration, ecommerce tracking, goal setup and cross-domain tracking."
       logo: "/images/logos/google_analytics.svg"
 
     # service item loop
     - icon : ion-image #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Adobe Analytics
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Tracking setups, migrations and customisation of existing Adobe Analytics setups."
       logo: "/images/logos/adobe_analytics.png"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Matomo/Piwik
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Tracking setups, custom conversion tracking and Piwik tracking migrations."
       logo: "/images/logos/matomo.png"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Klipfolio
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Dashboard customisation, datasource setups and building of custom Klips."
       logo: "/images/logos/klipfolio.png"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Data Studio
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "Building custom dashboards, custom visualisations and configuring data sources."
       logo: "/images/logos/google_data_studio.svg"
 
     # service item loop
     - icon : ion-bug #ionicon pack v2 : https://ionicons.com/v2/ #ionicon pack v2 : https://ionicons.com/v2/
       name: Google Optimize
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      content: "AB Test planning, linking to GA conversions and experiment setup/configuration."
       logo: "/images/logos/google_optimize.png"
 
 

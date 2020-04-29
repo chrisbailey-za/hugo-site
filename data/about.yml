@@ -3,13 +3,17 @@ about:
   enable : true
   image : "images/profile2.jpg"
   title : "Helping you to make sense of your <br> digital analytics data."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam
-          iure officiis facere vitae itaque.
+  content : "After more than 8 years working as a Digital Analyst, I have decided to consult on a freelance basis.
+
+
+          I work with a number of clients around the globe, offering support and niche skills that are often too specific to hire in-house. By working directly with clients and agencies, I am able to offer the Analytics services that you require on an independent, ad-hoc basis.
+          I specialise in the technical aspects of Digital Analytics and have in-depth JavaScript experience. I've also helped out a number of clients with eCommerce tracking that requires dataLayer setups or server side implementation.
+
           
-          
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-          velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-          dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+          While I have worked and lived in Cape Town for most of my life, I recently spent a year travelling through Australia. I have also spent time travelling and working in Switzerland and Germany in the past.<br><br>
+
+
+          When I am not working, you are likely to find me in the ocean or running on the mountains in and around Cape Town, South Africa."
 
   button:
     enable : true
@@ -20,8 +24,7 @@ about:
 features:
   enable : true
   title : "What I do in my free time"
-  content: "As you have probably figured out by this stage, I am a rather passionate (albeit averagely skilled) surfer. My love of surfing comes from growing up in Kommetjie, a small village south of Cape Town, South Africa, which happens to have a magnificent supply of waves. This led to me spending weekends, evening and early mornings in the ocean ever since I could swim.<br><br>
-      While I have worked and lived in Cape Town for most of my life, I recently spent a year travelling through Australia. I have also spent time travelling and working in Switzerland and Germany in the past.<br><br>
+  content: "As you have probably figured out by this stage, I am a rather passionate (albeit averagely skilled) surfer. My love of surfing comes from growing up in Kommetjie, a small village south of Cape Town, which happens to have a magnificent supply of waves. This led to me spending weekends, evening and early mornings in the ocean ever since I could swim.<br><br>
       Note: The photos on this page are all pictures of me surfing that I was lucky enough to be sent from friends and generous photographers. Particular thanks goes to Daniel Grebe for the photos he has sent me (and lots of other Kommetjie locals) over the years."  
   image1: "images/chris-surf-1.jpg"
   image2: "images/chris-surf-2.jpg"

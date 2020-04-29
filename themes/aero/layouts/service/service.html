@@ -6,7 +6,7 @@
 
 {{ if $data.service.about.enable }}
 {{ with $data.service.about }}
-<section class="service-about section">
+<section class="service-about section" style="background-image: url('{{ .image | absURL}}')">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -17,9 +17,6 @@
           with JavaScript due to its integral role in web analytics and tag management, which I believe sets me apart from many other digital analysts.</p> 
         <p>In addition to this, I have more than five years of data visualisation experience, designing and implementing reports and dashboards that 
           focus on visualising actionable data, that is related to business objectives.</p>
-      </div>
-      <div class="col-md-6">
-        <img class="img-responsive" src="{{ .image | absURL }}">
       </div>
     </div>
   </div>

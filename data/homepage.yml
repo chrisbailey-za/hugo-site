@@ -21,7 +21,7 @@ about:
           <br><br>After 8 years agency side, I am now focusing on offering my skills and experience on a freelance basis.
           I am active within the UpWork community and consult to a number of businesses across the globe."
   image : "images/profile2.jpg"
-  bg_image: "images/underwater7.png"
+  bg_image: "images/underwater7.jpg"
 
 
 ######################### Portfolio ###############################
@@ -53,7 +53,7 @@ service:
 ############################ call to action ###########################
 cta:
   enable : false
-  bg_image : "images/underwater7.png"
+  bg_image : "images/underwater7.jpg"
   title : "Do you need some help making sense of your Web Analytics or Tag Manager setup? <br> Would you like some advice on best practices and understanding your web analytics data?"
   content : "Get back on top of your digital analytics setup."
   button:
@@ -89,22 +89,21 @@ funfacts:
 
   testimonial_slider:
     # testimonial item loop
-    - name : "Raymond Roy"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "UpWork"
+      link : "https://www.upwork.com/freelancers/~01ae9a9043ad0d53c7"
+      content : "Chris was very communicative, and completed the task at hand quickly and thoroughly! I look forward to working with him on projects in the future."
                 
     # testimonial item loop
-    - name : "Randi Renin"
-      image : "images/clients/avater-1.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "UpWork"
+      image : "https://www.upwork.com/freelancers/~01ae9a9043ad0d53c7"
+      content : "He set up some of our tags in GTM. Really happy with what was done and easy to work with. Highly recommend."
                 
     # testimonial item loop
-    - name : "Rose Rio"
-      image : "images/clients/avater-3.jpg"
-      designation : "CEO-Themefisher"
-      content : "This Company created an e-commerce site with the tools to make our business a success, with innovative
-                ideas we feel that our site has unique elements that make us stand out from the crowd."
+    - name : "UpWork"
+      image : "https://www.upwork.com/freelancers/~01ae9a9043ad0d53c7"
+      content : "Chris was very knowledgeable and easy to work and communicate with. I was able to get him access to my accounts and Chris handled the integrations perfectly and in a timely manner. Looking forward to working with him again soon."
+
+    # testimonial item loop
+    - name : "UpWork"
+      image : "https://www.upwork.com/freelancers/~01ae9a9043ad0d53c7"
+      content : "Chris once again delivered well-done and quickly-finished work that exactly fit our needs!"
