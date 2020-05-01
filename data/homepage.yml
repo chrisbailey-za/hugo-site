@@ -54,7 +54,8 @@ service:
 cta:
   enable : false
   bg_image : "images/underwater7.jpg"
-  title : "Do you need some help making sense of your Web Analytics or Tag Manager setup? <br> Would you like some advice on best practices and understanding your web analytics data?"
+  title1 : "Do you need some help making sense of your Web Analytics or Tag Manager setup?"
+  title2 : "Would you like some advice on best practices and understanding your web analytics data?"
   content : "Get back on top of your digital analytics setup."
   button:
     enable : true
