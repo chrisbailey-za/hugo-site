@@ -14,7 +14,7 @@
           <p>{{ .content | markdownify }}</p>
           {{ if .button.enable }}
           {{ with .button }}
-          <a href="{{ .link }}" class="btn btn-main animated fadeInUp">{{ .label }}</a>
+          <a href="{{ .link }}" aria-label="get in touch" class="btn btn-main animated fadeInUp">{{ .label }}</a>
           {{ end }}
           {{ end }}
         </div>
@@ -123,7 +123,7 @@
             {{ range .testimonial_slider }}
             <div>
               <i class="ion-quote"></i>
-              <a href="{{ .link | absURL }}" target="_blank">
+              <a href="{{ .link | absURL }}" rel="noopener" target="_blank">
                 <p>"{{ .content | markdownify }}"</p>
                 <div class="stars">
                   <i class="ion-ios-star"></i>

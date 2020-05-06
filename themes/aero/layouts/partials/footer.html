@@ -5,7 +5,7 @@
 				<div class="footer-manu">
 					<ul>
 					{{ range .Site.Menus.footer }}
-					<li><a href="{{ .URL }}" target="_blank">{{ .Name }}</a></li>
+					<li><a href="{{ .URL }}" rel="noopener" target="_blank">{{ .Name }}</a></li>
 					{{ end }}
 					</ul>
 				</div>
