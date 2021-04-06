@@ -57,6 +57,10 @@ $(document).ready(function () {
 	$("#contactForm").submit(function(e){
 		e.preventDefault();
 		var action = $(this).attr("action");
+		if($("#form_tel").val().length > 0){
+	      console.log("better luck next time you unsophisticated bot")
+		  return;
+		}
 		$.ajax({
 		  type: "POST",
 		  url: action,
